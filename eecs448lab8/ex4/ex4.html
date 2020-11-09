@@ -1,0 +1,29 @@
+<html>
+    
+    <head>
+        <title>Exercise 4</title>
+    </head>
+    <link rel="stylesheet" type="text/css" href="ex4.css"/>
+    <body>
+        <p id="content">Exercise 4: CSS Manipulation</p>
+        <p>Border:</p>
+        <label>RED(0-255):</label>
+        <input type="text" id="borderRed" max="255" min="0" onKeyUp="if(this.value>255){this.value='255';}else if(this.value<0){this.value='0';}" required>
+        <label>Green(0-255):</label>
+        <input type="text" id="borderGreen" max="255" min="0" onKeyUp="if(this.value>255){this.value='255';}else if(this.value<0){this.value='0';}" required>
+        <label>Blue(0-255):</label>
+        <input type="text" id="borderBlue" max="255" min="0" onKeyUp="if(this.value>255){this.value='255';}else if(this.value<0){this.value='0';}" required>
+        <label>Width:</label>
+        <input type="text" id="borderWidth" required>
+        <button value="submit"  onclick="borderchange()">submit</button>
+        <p>Backgroung:</p>
+        <label>RED(0-255):</label>
+        <input type="text" id="backgroundRed" max="255" min="0" onKeyUp="if(this.value>255){this.value='255';}else if(this.value<0){this.value='0';}" required>
+        <label>Green(0-255):</label>
+        <input type="text" id="backgroundGreen" max="255" min="0" onKeyUp="if(this.value>255){this.value='255';}else if(this.value<0){this.value='0';}" required>
+        <label>Blue(0-255):</label>
+        <input type="text" id="backgroundBlue" max="255" min="0" onKeyUp="if(this.value>255){this.value='255';}else if(this.value<0){this.value='0';}" required>
+        <button value="submit"  onclick="backgroundchange()">submit</button>
+    </body>
+    <script src="ex4.js"></script>
+</html>

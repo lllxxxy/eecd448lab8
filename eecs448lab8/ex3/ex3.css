@@ -1,0 +1,35 @@
+body {
+  background-image: url("bgdimg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+p {
+  background-color: rgba(132, 77, 139, 0.486);
+  color: rgb(17, 160, 136);
+  font-family: arial;
+  font-size: 16pt;
+}
+
+.Biography {
+  background-color: rgba(172, 255, 47, 0.486);
+  color: rgb(41, 53, 51);
+}
+.name {
+  color: rgb(31, 151, 109);
+  font-family: arial;
+  font-size: 22pt;
+}
+.link {
+  background-color: rgba(21, 214, 108, 0.486);
+  color: rgb(41, 53, 51);
+}
+.Biography:hover {
+  background-color: rgb(41, 53, 51) d;
+  color: rgba(32, 59, 44, 0.486);
+}
+.link:hover {
+  background-color: rgb(41, 53, 51) d;
+  color: rgba(32, 59, 44, 0.486);
+}
